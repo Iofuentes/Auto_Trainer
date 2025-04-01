@@ -1,15 +1,21 @@
-import React from "react";
+import Button from './Button';
+import './NavBar.css'
+
+
 
 const NavBar = () => {
   return (
-    <nav className="navbar bg-body-tertiary">
-      <div className="container-fluid">
-        <a className="navbar-brand">Auto Trainer</a>
-        <button className="btn btn-outline-success text-nowrap d-flex">
-          Get Started
-        </button>
-      </div>
-    </nav>
+    <div className="nav-bar">
+      <nav className="navbar">
+        <div className="container-fluid">
+          <a className="navbar-brand nav-text">Auto Trainer</a>
+          <button className="btn btn-sml btn-outline-light text-nowrap d-flex">
+            Get Started
+          </button>
+        </div>
+      </nav>
+    </div>
+
   );
 };
 

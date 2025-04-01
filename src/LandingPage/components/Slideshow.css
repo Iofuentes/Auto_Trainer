@@ -5,6 +5,24 @@
   position: relative;
 }
 
+.slide-images {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  border: 1px solid black;
+}
+
+.container-head {
+  margin: auto;
+  text-align: center;
+  /* vertical-align: middle; */
+  width: 75%;
+  padding: 14rem 0;
+}
+
+
 .container {
   position: absolute;
   bottom: 0;

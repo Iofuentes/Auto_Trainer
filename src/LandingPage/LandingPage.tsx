@@ -6,7 +6,7 @@ function LandingPage() {
   return (
     <>
       {/* //NavBar */}
-      <div className="mb-3">
+      <div>
         <NavBar />
       </div>
       {/* // Image Slideshow */}

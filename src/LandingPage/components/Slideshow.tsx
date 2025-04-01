@@ -1,35 +1,33 @@
-import "../images/s1_superset.png";
-import "../images/s2_superset.png";
-import "../images/s3_superset.png";
-// import "./Slideshow.css";
+import "./Slideshow.css";
 
 const Slideshow = () => {
   return (
+    
     <div
       id="carouselExample"
       className="carousel slide"
-      data-bs-ride="carousel"
+      // data-bs-ride="carousel"
     >
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <div className="container">
-            <h1>adsasd</h1>
-            <p> bruh moment got u good</p>
+          <div className="container-head">
+            <h1>Focus on the training while we Focus on your business</h1>
+            <img className="slide-images" src="src/LandingPage/images/s3_superset.png" />
           </div>
         </div>
         <div className="carousel-item">
           <div className="container">
-            <h1>adsasd</h1>
-            <p> bruh moment got u gosdasdasdod</p>
+            <h1>AI driven assistance</h1>
           </div>
         </div>
         <div className="carousel-item">
           <div className="container">
-            <h1>titties are fine</h1>
-            <p> bruh moment got u gosdasdasdod</p>
+            <h1>Payment and Scheduling Solutions</h1>
           </div>
         </div>
       </div>
+
+      
       <button
         className="carousel-control-prev"
         type="button"
