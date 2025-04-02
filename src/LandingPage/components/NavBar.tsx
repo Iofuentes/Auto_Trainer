@@ -1,12 +1,10 @@
-import Button from './Button';
-import './NavBar.css'
-
-
+import Button from "./Button";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
     <div className="nav-bar">
-      <nav className="navbar">
+      <nav className="navbar sticky-top">
         <div className="container-fluid">
           <a className="navbar-brand nav-text">Auto Trainer</a>
           <button className="btn btn-sml btn-outline-light text-nowrap d-flex">
@@ -15,7 +13,6 @@ const NavBar = () => {
         </div>
       </nav>
     </div>
-
   );
 };
 

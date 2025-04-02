@@ -2,17 +2,11 @@ import "./Slideshow.css";
 
 const Slideshow = () => {
   return (
-    
-    <div
-      id="carouselExample"
-      className="carousel slide"
-      // data-bs-ride="carousel"
-    >
+    <div id="carouselExample" className="carousel slide">
       <div className="carousel-inner">
         <div className="carousel-item active">
           <div className="container-head">
             <h1>Focus on the training while we Focus on your business</h1>
-            <img className="slide-images" src="src/LandingPage/images/s3_superset.png" />
           </div>
         </div>
         <div className="carousel-item">
@@ -27,7 +21,6 @@ const Slideshow = () => {
         </div>
       </div>
 
-      
       <button
         className="carousel-control-prev"
         type="button"
