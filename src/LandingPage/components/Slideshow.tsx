@@ -5,17 +5,29 @@ const Slideshow = () => {
     <div id="carouselExample" className="carousel slide">
       <div className="carousel-inner">
         <div className="carousel-item active">
+          <img
+            src="./src/LandingPage/images/s1_superset.png"
+            className="d-block w-100"
+          />
           <div className="container-head">
             <h1>Focus on the training while we Focus on your business</h1>
           </div>
         </div>
         <div className="carousel-item">
           <div className="container">
+            <img
+              src="./src/LandingPage/images/s2_superset.png"
+              className="d-block w-100"
+            />
             <h1>AI driven assistance</h1>
           </div>
         </div>
         <div className="carousel-item">
           <div className="container">
+            <img
+              src="./src/LandingPage/images/s3_superset.png"
+              className="d-block w-100"
+            />
             <h1>Payment and Scheduling Solutions</h1>
           </div>
         </div>

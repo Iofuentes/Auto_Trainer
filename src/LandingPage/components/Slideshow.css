@@ -1,23 +1,24 @@
-.carousel-item {
+/* .carousel-container {
+  display: flex;
   height: 500px;
   background: #777;
   color: white;
-  position: relative;
+} */
+
+.carousel-item {
+  height: 1000px;
+  background: white;
+  color: black;
 }
 
-.slide-images {
-  margin: auto;
+/* .slide-images {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
   border: 1px solid black;
-}
+} */
 
 .container-head {
-  margin: auto;
-  text-align: center;
-  /* vertical-align: middle; */
   width: 75%;
   padding: 14rem 0;
 }
